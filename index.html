@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color:  rgb(130, 4, 248);
+            height: 60px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white
+        }
+
+
+        nav ul li a:hover {
+            color: lavender;
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+
+            width: 34px;
+            font-size: 3rem;
+        }
+
+        .rightsection {
+
+            width: 34px;
+        }
+
+        .rightsection img {
+            width: 60%;
+
+        }
+
+        .red {
+            color: rgb(154, 62, 240);
+        }
+
+        #element {
+            color: rgb(154, 62, 240);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            background-color: rgb(0, 0, 33);
+            height: 80vh;
+        }
+
+        .hola {
+            border: 0;
+            background: rgb(130, 4, 248);
+            ;
+            height: 1.8px;
+            margin: 60px 80px;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem
+        }
+
+        .bbk {
+            color: grey;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 90px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .titu {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+
+        .titu1 {
+             
+            position: relative;
+            top: -32px;
+            left: -19px;
+            width: 40px;
+        }
+        .titu2 {
+            position: relative;
+            width: 40px;
+    top: -50px;
+    left: -21px;
+        }
+
+        .fuddi {
+
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .fuddi1 {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+
+        footer {
+            background-color:  rgb(130, 4, 248);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer div {
+            width: 223px;
+        }
+
+        .text-center {
+            text-align: center;
+            color:black;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Vivek's Portfolio</div>
+            <div class="right">
+                <ul>
+
+
+
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="https://github.com/vivek-uchiha">Projects</a></li>
+                    <li><a href="">Contact Me</a></li>
+
+
+
+
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="firstsection">
+            <div class="leftsection">
+
+                Hey i am <span class="red">Vivek Sharma</span>
+                <div>
+                    i am a Full Stack Developer
+                </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="vivek.png.jpg" alt="Dev">
+
+            </div>
+
+
+        </section>
+        <hr class="hola">
+        <section class="secondsection">
+            <span class="bbk">My Experience so far</span>
+
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="titu" src="html.png" alt="..">
+                    <div class="fuddi">
+                        HTML Developer
+                    </div>
+                    <div class="fudd1">
+                        Hey, i am a Html Developer.
+
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="titu1" src="react.png" alt="..">
+                   <h4> I have developed several projects with the help of react.</h4>
+                </div>
+                <div class="vertical">
+                    <img class="titu1" src="next.jpeg" alt="..">
+                    <h4> I have also developedquality projects with help of Next.js.</h4>
+                </div>
+                <div class="vertical">
+                    <img class="titu2" src="mongo.png" alt="..">
+                    <h4> I use MongoDb for storing the backend Data.</h4>
+                </div>
+                <div class="vertical">
+                    <img class="titu2" src="node.png" alt="..">
+                    <h4> I use NOde.js as client side technology.</h4>
+                </div>
+                <div class="vertical">
+                    <img class="titu2" src="boot.jpeg" alt="..">
+                    <h4> I use Bootsrap for the front end technology.</h4>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+
+        <div class="footer">
+            <div class="footerfirst">
+                <span id="element1"></span>
+            </div>
+            <div class="footersecond">
+                <ul>
+                    <li>Blog</li>
+                    <li>Contribution</li>
+                    <li>Network</li>
+                </ul>
+
+
+            </div>
+            <div class="footerthird">
+                <ul>
+                    <li>Blog</li>
+                    <li>Contribution</li>
+                    <li>Network</li>
+                </ul>
+            </div>
+            <div class="footerfourth">
+                <ul>
+                    <li>Blog</li>
+                    <li>Contribution</li>
+                    <li>Network</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            www.vivek_uchiha.com | All Rights Reserved. </div>
+    </footer>
+    <!-- Element to contain animated typing -->
+   
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+        var typed = new Typed('#element1', {
+            strings: ['Do Check Out and Suscribe', 'For More Such','Amazing Projects'],
+            typeSpeed: 40,
+        });
+    </script>
+</body>
+
+</body>
+
+</html>
